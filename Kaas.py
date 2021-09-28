@@ -14,7 +14,7 @@ if kaasGeel == 'ja':
         if steenKaas == 'nee':
             print('De kaas is Goudse kaas')
 
-if kaasGeel == 'nee':
+elif kaasGeel == 'nee':
     schimmelKaas = input(str('Heeft de kaas blauwe schimmels?: '))
     if schimmelKaas == 'ja':
         korstKaas = input(str('Heeft de kaas een korst?: '))
