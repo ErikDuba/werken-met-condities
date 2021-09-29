@@ -45,14 +45,14 @@ elif geslacht == 'vrouw':
     paardrijEenSport = input('Vind u dat paardrijen een sport is? ja/nee: ')
 
 if geslacht == 'vrouw' and jongleerErvaring >= 5 and mboOndernemen == 'ja' and vrachtBewijs == 'ja' and hogeHoed == 'ja' and lengte >= 150 and gewicht >= 90 and raarCertificaat == 'ja' and krulLengte >= 20:
-    print('Gefeliciteerd' + name + '! U kunt volgende week op een sollicitatiegesprek komen.')
+    print('Gefeliciteerd ' + name + '! U kunt volgende week op een sollicitatiegesprek komen.')
     print('Dit zijn uw gegevens: ')
     print(name + ' ' + behindName )
-    print(adres + ' ' + name) 
-elif geslacht == 'man' and snorBreedte >= 10 and jongleerErvaring >= 5 and mboOndernemen == 'ja' and vrachtBewijs == 'ja' and hogeHoed == 'ja' and lengte >= 150 and gewicht >= 90 and raarCertificaat == 'ja' and krulLengte >= 20:
-    print('Gefeliciteerd' + name + '! U kunt volgende week op een sollicitatiegesprek komen.')
+    print(adres + ' ' + postcode) 
+elif geslacht == 'man' and snorBreedte >= 10 and jongleerErvaring >= 5 and mboOndernemen == 'ja' and vrachtBewijs == 'ja' and hogeHoed == 'ja' and lengte >= 150 and gewicht >= 90 and raarCertificaat == 'ja':
+    print('Gefeliciteerd ' + name + '! U kunt volgende week op een sollicitatiegesprek komen.')
     print('Dit zijn uw gegevens: ')
     print(name + ' ' + behindName )
-    print(adres + ' ' + name)
+    print(adres + ' ' + postcode)
 else:
     print('Helaas, u komt niet in aanmerking voor deze baan')
